@@ -8,14 +8,37 @@
 
   <script type="text/javascript">
     // data (variables)
-
+    var a = 3;
+    var b = 5;
     // functions
+    function print_vals (a,b){
+    console.log(a, b);
+    };
+    function add (a,b) {
+      return a+b;
+    }
+    function subtract (a,b) {
+      return a-b;
+    }
+    function multiply (a,b) {
+      return a*b;
+    }
+    function divide (a,b) {
+      return a/b;
+    }
 
   </script>
 </head>
 
 <body>
-
+<h1> Welcome to Calculator!</h1>
+<br>
+<button><a href="homepage-index.html">Home Page</a></button><br>
+<button onclick="print_vals (a,b);">A and B </button> <br>
+<button onclick="console.log(add(a, b));"> Add</button> <br>
+<button onclick="console.log(subtract(a, b));">Subtract</button> <br>
+<button onclick="console.log(multiply(a, b));">Multiply</button> <br>
+<button onclick="console.log(divide(a, b));">Divide </button> <br>
 
 </body>
 </html>
