@@ -68,7 +68,7 @@ and [a whole bunch more emojis](https://gist.github.com/rxaviers/7360908) for fu
 | --- | --- | --- | --- | --- |
 | Home page |:white_check_mark: | | | |
 | Team page |:white_check_mark: | | | |
-| Calc page | | | | |
+| Calc page |white_check_mark:  | | | |
 
 
 
