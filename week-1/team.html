@@ -5,16 +5,37 @@
   <meta charset="utf-8">
 
   <title>team page</title>
-
   <script type="text/javascript">
     // data (variables)
 
-    // functions
+  var teamName = "Team Leuven";
+  var teamMembers = ["Fatma", "Moon", "Nadine"];
 
+    // functions
+    function printTeamName(teamName) {
+      console.log("Team of the year is " + teamName);
+    }
+
+    function printTeamMembers(teamMembers){
+      console.log("The members of the team are "+teamMembers);
+    }
+    function introduce (teamName,teamMembers) {
+      console.log("The members of " +teamName+ " are " +teamMembers+ ".");
+    }
   </script>
+
+
 </head>
 
 <body>
+<h1> Welcome to Team Page!</h1>
+<button><a href="homepage-index.html">Home Page</a></button><br>
+<button onclick="printTeamName(teamName);">Team Name</button> <br>
+<button onclick="printTeamMembers(teamMembers);">Team Members</button> <br>
+<button onclick="introduce (teamName,teamMembers);">Introduction</button>
 
+
+
+      -->
 </body>
 </html>
