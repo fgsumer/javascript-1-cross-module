@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- |
 | Home page  | :white_check_mark:| | | |
 | Team page |:white_check_mark: | | | |
-| Calc page | | | | |
+| Calc page |:question: | Although I followed the same route as in my team page (it is working on console), my calculator page's functions are not working (except for setting new a and b)  | | |
 
 
 ---
